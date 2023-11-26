@@ -1,8 +1,20 @@
 import Image from 'next/image'
+import ImageDisplay from '../components/ImageDisplay';
 
-export default function Home() {
+// export default function Home() {
+//   return (
+    
+//     <img className='animate-up w-80' src="/1.jpg" alt="cat_1"/>
+//     )
+// }
+
+const HomePage: React.FC = () => {
   return (
-    <div className='border-2 border-black m-2'>
-    <p className='p-40 text-cssBlue text-9xl textalign-center font-extrabold animate-up'>takurinton</p>
-    </div>  )
+    <div>
+      <ImageDisplay id={1} />
+      <ImageDisplay id={2} />
+    </div>
+  );
 }
+
+export default HomePage;

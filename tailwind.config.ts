@@ -17,11 +17,11 @@ const config: Config = {
         cssBlue: '#0000FF',
       },
       animation: {
-        'up': 'up 3s linear'
+        'up': 'up 2s linear'
       },
       keyframes: {
         up: {
-          '0%': { opacity: '0', transform: 'translateY(100%)', color: 'red'},
+          '0%': { opacity: '0', transform: 'translateY(200%)', color: 'red'},
           '100%': { opacity: '1', transform: 'translateY(0)', color: '#0000FF'}
         },
       },
