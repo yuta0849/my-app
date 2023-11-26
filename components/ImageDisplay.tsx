@@ -4,7 +4,7 @@ interface ImageDisplayProps {
   }
   
   const ImageDisplay: React.FC<ImageDisplayProps> = ({ id }) => {
-    const imageUrl = `/images/${id}.png`;
+    const imageUrl = `/images/${id}.jpg`;
     return <img src={imageUrl} alt="Description" />
   }
   
