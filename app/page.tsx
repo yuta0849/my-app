@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import ImageDisplay from '../components/ImageDisplay';
+
 
 // export default function Home() {
 //   return (
@@ -24,11 +24,11 @@ const HomePage: React.FC = () => {
       </ul>
     <div className='flex justify-center'>
       <div className='animate-up w-80 block'>
-      <ImageDisplay id={1} />
+      <ImageDisplay/>
       </div>
     </div>
     </div>
   );
 }
-
+//どこにexportしてるのこれは？
 export default HomePage;
