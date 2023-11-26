@@ -13,8 +13,21 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        cssBlue: '#0000FF',
+      },
+      animation: {
+        'up': 'up 3s linear'
+      },
+      keyframes: {
+        up: {
+          '0%': { opacity: '0', transform: 'translateY(100%)', color: 'red'},
+          '100%': { opacity: '1', transform: 'translateY(0)', color: '#0000FF'}
+        },
+      },
     },
   },
   plugins: [],
 }
+
 export default config
