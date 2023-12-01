@@ -1,5 +1,5 @@
 import ImageDisplay from '../components/ImageDisplay';
-
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 // export default function Home() {
 //   return (
@@ -20,7 +20,6 @@ const HomePage: React.FC = () => {
         <li><a href={`/images/${'cat_6'.split('_')[1]}.jpg`}>cat_6</a></li>
         <li><a href={`/images/${'cat_7'.split('_')[1]}.jpg`}>cat_7</a></li>
         <li><a href={`/images/${'cat_8'.split('_')[1]}.jpg`}>cat_8</a></li>
-        
       </ul>
     <div className='flex justify-center'>
       <div className='animate-up w-80 block'>
